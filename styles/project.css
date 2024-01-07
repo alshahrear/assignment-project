@@ -71,6 +71,75 @@
     background-repeat: no-repeat;
 }
 
+.bphoto {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+}
+
 .amiddle {
     text-align: center;
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    background-color: rgb(255, 182, 216);
+
+}
+
+.jolor {
+    color: white;
+    background-color: #F00;
+}
+
+.line {
+    display: flex;
+}
+
+.lmiddle {
+    text-align: center;
+}
+
+.ch {
+    color: #F00;
+}
+
+.nphoto one,
+four {
+    display: inline-flex;
+}
+
+.colorc {
+    color: #F00;
+}
+
+.bagimage {
+    background-image: repeat none;
+}
+
+.kmiddle {
+    text-align: center;
+    font-size: larger;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.redd {
+    background-color: #F00;
+    font-size: larger;
+}
+
+.redi {
+    font-size: larger;
+}
+.dis{
+    display: flex;
+    
 }

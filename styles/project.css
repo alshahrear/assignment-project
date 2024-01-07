@@ -1,0 +1,76 @@
+.happy {
+    background-image: url(../images/banner.png)
+}
+
+.happy {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background: top 50px;
+    border: 140px 140px;
+    padding-top: ;
+    border-radius: 16px;
+
+}
+
+.happy {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 283px 484px 484px 283px;
+}
+
+.middle {
+    text-align: center;
+}
+
+.red {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.redt {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.redth {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.photo {
+    width: 802.9px;
+    height: 500px;
+}
+
+.bphoto {
+    background-image: url(../images/Vectorrr.png);
+}
+
+.bphoto {
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.amiddle {
+    text-align: center;
+}

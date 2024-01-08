@@ -1,21 +1,15 @@
-* {
-    /* margin-left: 10px; */
-    /* margin-right: 5px; */
-}
-
-
 .happy {
     text-align: center;
     background-image: url(../images/banner.png);
     padding-top: 110px;
+    padding-bottom: 110px;
     margin-top: 30px;
-    margin-left: 10px;
-    margin-right: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .happy {
-    width: 1320px;
-    height: 600px;
+
     background-repeat: no-repeat;
 }
 
@@ -80,7 +74,7 @@
     width: 802.9px;
     height: 500px;
     margin-left: 200px;
-    
+
 }
 
 .tphoto {
@@ -101,11 +95,13 @@
     padding-top: 20px;
     padding-bottom: 40px;
     margin-bottom: 70px;
+    margin-left: 70px;
+    margin-right: 70px;
 }
 
 .amiddle span {
     color: #F00;
-    
+
 }
 
 .jcolor {
@@ -144,7 +140,8 @@ four {
     margin-left: 10px;
     margin-right: 5px;
 }
-.hi{
+
+.hi {
     margin-left: 70px;
 }
 
@@ -163,8 +160,11 @@ four {
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
     margin-top: 80px;
+    margin-bottom: 50px;
     padding-top: 40px;
     padding-bottom: 40px;
+    margin-left: 70px;
+    margin-right: 70px;
 }
 
 .redd {
@@ -176,28 +176,45 @@ four {
     font-size: larger;
 }
 
-.dis {
-    display: flex;
+.box {
+    background: #070211;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.foot {
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: 40px;
-    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.dik {
+.picture {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border-color:rgba(255, 255, 255, 0.15);
+    border-style: solid;
+    border-left: 0;
+    border-right: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+
+.rights {
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    padding-bottom: 20px;
-}
-
-.last {
-    background: #070211;
-    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
 }

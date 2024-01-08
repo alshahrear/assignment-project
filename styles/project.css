@@ -1,18 +1,35 @@
+* {
+    /* margin-left: 10px; */
+    /* margin-right: 5px; */
+}
+
+
 .happy {
-    background-image: url(../images/banner.png)
+    text-align: center;
+    background-image: url(../images/banner.png);
+    padding-top: 110px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 5px;
 }
 
 .happy {
-    background-size: 100%;
+    width: 1320px;
+    height: 600px;
     background-repeat: no-repeat;
-    background: top 50px;
-    border: 140px 140px;
-    padding-top: ;
-    border-radius: 16px;
-
 }
 
-.happy {
+.year {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+}
+
+.new {
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
@@ -20,11 +37,6 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    padding: 283px 484px 484px 283px;
-}
-
-.middle {
-    text-align: center;
 }
 
 .red {
@@ -35,6 +47,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-top: 20px;
 }
 
 .redt {
@@ -57,28 +70,21 @@
     line-height: normal;
 }
 
+.middle {
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
 .photo {
     width: 802.9px;
     height: 500px;
+    margin-left: 200px;
+    
 }
 
-.bphoto {
-    background-image: url(../images/Vectorrr.png);
-}
-
-.bphoto {
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
-.bphoto {
-    color: #FFF;
-    font-family: Merriweather;
-    font-size: 10px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 88px;
-    letter-spacing: 7.04px;
+.tphoto {
+    display: flex;
 }
 
 .amiddle {
@@ -87,16 +93,27 @@
     font-family: Inter;
     font-size: 32px;
     font-style: normal;
-    font-weight: 600;
-    line-height: 56px;
+    font-weight: 6000;
+    line-height: 40px;
     text-transform: capitalize;
-    background-color: rgb(255, 182, 216);
-
+    background-color: rgb(240, 195, 201);
+    margin-top: 70px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin-bottom: 70px;
 }
 
-.jolor {
+.amiddle span {
+    color: #F00;
+    
+}
+
+.jcolor {
     color: white;
     background-color: #F00;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
 }
 
 .line {
@@ -105,6 +122,8 @@
 
 .lmiddle {
     text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
 }
 
 .ch {
@@ -122,6 +141,15 @@ four {
 
 .bagimage {
     background-image: repeat none;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.hi{
+    margin-left: 70px;
+}
+
+.bagimage {
+    margin-left: 70px;
 }
 
 .kmiddle {
@@ -129,6 +157,14 @@ four {
     font-size: larger;
     font-weight: 900;
     line-height: normal;
+}
+
+.kmiddle {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin-top: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .redd {
@@ -139,7 +175,29 @@ four {
 .redi {
     font-size: larger;
 }
-.dis{
+
+.dis {
     display: flex;
-    
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    padding-top: 20px;
+}
+
+.dik {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 20px;
+}
+
+.last {
+    background: #070211;
+    margin-top: 70px;
 }

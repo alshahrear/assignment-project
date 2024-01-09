@@ -1,6 +1,6 @@
 .happy {
     text-align: center;
-    background-image: url(../images/banner.png);
+    background-image: url('../images/banner.png');
     padding-top: 110px;
     padding-bottom: 110px;
     margin-top: 30px;
@@ -79,7 +79,7 @@
 .welcome {
     display: flex;
     justify-content: space-between;
-    background-image: url(../images/Vectorrr.png);
+    background-image: url('../images/Vectorrr.png');
     margin-left: 70px;
     margin-right: 70px;
     padding-top: 30px;
@@ -116,10 +116,12 @@
     line-height: normal;
     text-transform: uppercase;
 }
-.mid{
+
+.mid {
     padding-left: 70px;
 }
-.saal{
+
+.saal {
     padding-right: 70px;
     padding-top: 70px;
     padding-bottom: 50px;
@@ -149,7 +151,16 @@
 
 .jcolor {
     background-color: #F00;
-    padding: 5px 5px 5px 5px;
+    padding: 10px 10px 10px 10px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    color: #FFF;
 }
 
 .come {
@@ -173,7 +184,6 @@
     border-radius: 463px;
     border: 10px solid #F00;
     padding: 15px 15px 15px 15px;
-
 }
 
 .lmiddle {
@@ -199,6 +209,19 @@ four {
     background-image: repeat none;
     margin-left: 10px;
     margin-right: 5px;
+}
+
+.discount {
+    display: flex;
+    margin-left: 640px;
+}
+
+.bbb {
+    background-image: url('../images/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-left: 70px;
+    margin-right: 70px;
 }
 
 .hi {
@@ -265,7 +288,7 @@ four {
     border-right: 0;
     padding-top: 25px;
     padding-bottom: 25px;
-
+    
 }
 
 .rights {
